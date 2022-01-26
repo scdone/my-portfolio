@@ -1,0 +1,113 @@
+$gap: 4vh;
+$padding: 4vh;
+
+$tan : #CDC6AE;
+$dark-blue : #1D263B;
+$middle-blue : #2D82B7;
+$middle-green : #43AA8B;
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.main {
+    background-color: $tan;
+    min-height: 100vh;
+    max-width: 1440px;
+    width: 100vw;
+    margin: 0 auto;
+    @include flex-row();
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+    }
+
+    section {
+        width: (100%)/3;
+        height: 100%;
+        // border: 2px solid $dark-blue;
+        @include flex-col();
+
+        @media screen and (max-width: 1000px) {
+            width: 100vw;
+        }
+
+        .box{
+            width: calc(100% - 20px);
+            margin: 10px;
+            margin-right: 0;
+            padding: 10px;
+        }
+
+        .middle{
+            height: calc(50vh - 20px);
+        }
+
+        .right{
+            min-height: calc((100vh / 3) - 20px);
+            @media screen and (max-width: 1000px) {
+                min-height: 200px;
+                
+            }
+        }
+    }
+}
+
+body {
+    background-color: $tan;
+}
+
+#img-div{
+    height: calc(100vh - 20px);
+    margin: 10px 0;
+    background-image: url('./stetsonOnBoat.jpg');
+    background-size: cover;
+    background-position: top center;
+    
+}
+
+.green{
+    background-color: $middle-green;
+    color: $dark-blue;
+}
+
+.dark-blue{
+    background-color: $dark-blue;
+    color: $tan;
+}
+
+.middle-blue{
+    background-color: $middle-blue;
+    color: $tan
+}
+
+.skill-icon-container{
+    @include flex-row()
+}
+
+.skill-icons {
+     width: 100px;
+     margin: 8px;
+    
+}
