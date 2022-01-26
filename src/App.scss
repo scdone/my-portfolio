@@ -58,6 +58,7 @@ h1 {
             margin: 10px;
             margin-right: 0;
             padding: 10px;
+            border-radius: 7%;
         }
 
         .middle{
@@ -84,6 +85,7 @@ body {
     background-image: url('./stetsonOnBoat.jpg');
     background-size: cover;
     background-position: top center;
+    border-radius: 7%;
     
 }
 
@@ -110,4 +112,46 @@ body {
      width: 100px;
      margin: 8px;
     
+}
+
+.contact-box {
+    @include flex-row();
+}
+
+.contact-img {
+    width: 175px;
+    margin: 8px;
+}
+
+.project-buttons-noble-knight {
+    @include flex-row();
+}
+
+.project-links {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: $dark-blue;
+    margin: 10px;
+    background-color: $middle-blue;
+    padding: 5px;
+    border-radius: 7%;
+    text-decoration: none;
+}
+
+.bio-paragraph{
+    margin: 20px;
+    font-size: 16px;
+}
+
+.contact-links {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: $dark-blue;
+    margin: 10px;
+    background-color: $tan;
+    padding: 5px;
+    border-radius: 7%;
+    text-decoration: none;
 }
