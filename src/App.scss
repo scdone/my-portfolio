@@ -12,6 +12,9 @@ h1, h2 {
 
 h1 {
     font-size: 48px;
+    @media screen and (max-width: 1400px) {
+        font-size: 40px;
+    }
     @media screen and (max-width: 390px) {
         font-size: 36px;
     }
