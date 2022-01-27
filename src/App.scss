@@ -89,6 +89,9 @@ body {
     background-size: cover;
     background-position: top center;
     border-radius: 7%;
+    @media screen and (max-width: 1000px) {
+        height: 50vh;
+    }
     
 }
 
@@ -146,6 +149,11 @@ body {
     margin: 20px;
     font-size: 16px;
     padding: 20px;
+    @media screen and (max-width: 1400px) {
+        font-size: 14px;
+        padding: 5px;
+        margin: 10px;
+    }
 }
 
 .contact-links {
