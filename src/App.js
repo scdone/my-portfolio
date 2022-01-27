@@ -14,7 +14,7 @@ function App() {
       <section>
         <div className='box middle green'>
           <h1>Stetson Done</h1>
-          <p className='bio-paragraph'>With a background in law enforcement, I have experience with finding solutions and making decisions under pressure. My passion lies in solving problems for businesses with creative software engineering solutions. Outside of programming, you can find me spending time with my family, enjoying the great outdoors, or gaming.</p>
+          <p className='bio-paragraph' id="bio">With a background in law enforcement, I have experience with finding solutions and making decisions under pressure. My passion lies in problem solving with creative software engineering solutions. Outside of programming, you can find me spending time with my family, enjoying the great outdoors, or gaming.</p>
           <h2>Software Engineer in Phoenix, Arizona</h2>
         </div>
         <div className='box middle dark-blue'>
