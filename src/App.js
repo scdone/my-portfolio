@@ -15,7 +15,7 @@ function App() {
         <div className='box middle green'>
           <h1>Stetson Done</h1>
           <p className='bio-paragraph' id="bio">With a background in law enforcement, I have experience with finding solutions and making decisions under pressure. My passion lies in problem solving with creative software engineering solutions. Outside of programming, you can find me spending time with my family, enjoying the great outdoors, or gaming.</p>
-          <h2>Software Engineer in Phoenix, Arizona</h2>
+          <h2>Data Analyst in Phoenix, Arizona</h2>
         </div>
         <div className='box middle dark-blue'>
           <h2>projects</h2>
@@ -49,7 +49,7 @@ function App() {
           <h2>experience</h2>
           <p className='bio-paragraph'>I have experience as a fullstack developer using React, Javascript, HTML, CSS, Node.js, and SQL. Previous to software development, I worked as a Deputy Sheriff in Phoenix, Arizona.
           </p>
-          <h2>see my resume here</h2> 
+          <a target="_blank" rel="noreferrer" className='contact-links' href="https://docs.google.com/document/d/e/2PACX-1vRPzged0CBqgGsXo-shYjmcGYl9xlnJdqbWvbWoV3xR6Ba8Ltczrhw-muzqcI9UNev2ASqpFGanSKO9/pub">resume</a>
         </div>
         <div className='box right green'>
           <h2>skills</h2>
