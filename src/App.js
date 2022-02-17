@@ -22,8 +22,10 @@ function App() {
             <div className='project-div'>
               <br/>
               <li>Analysis of FBI gun data and U.S. Census data</li>
+              <div className='project-buttons-noble-knight'>
               <a target='_blank' rel="noreferrer" className='project-links' href="https://github.com/scdone/US-Census-and-Gun-Data-Analysis/blob/main/GunData_Notebook.ipynb">source code</a>
               <p>Gathered, cleaned, and analyzed date from the FBI and U.S. Census to identify and visualize trends in gun permits per capita across the U.S.</p>
+              </div>
               <br/>
               <li>Full-Stack text-based adventure game - "Noble Knight"</li>
               <div className='project-buttons-noble-knight'>
