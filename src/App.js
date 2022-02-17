@@ -57,12 +57,13 @@ function App() {
         <div className='box right green'>
           <h2>skills</h2>
           <div className='skill-icon-container'>
-          <img className='skill-icons' alt="python icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" /></div>
+          <img className='skill-icons' alt="python icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" />
           <img className='skill-icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" alt="postgresQL icon" />
           <img className='skill-icons' alt="pandas icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" />
           <img className='skill-icons' alt="javascript icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
           <img className='skill-icons' alt="react icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
           <img className='skill-icons' alt="sequelize icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-plain-wordmark.svg" />
+          </div>
         </div>
       </section>
 
