@@ -21,14 +21,15 @@ function App() {
           <h2>projects</h2>
             <div className='project-div'>
               <br/>
+              <li>Analysis of FBI gun data and U.S. Census data</li>
+              <a target='_blank' rel="noreferrer" className='project-links' href="https://github.com/scdone/US-Census-and-Gun-Data-Analysis/blob/main/GunData_Notebook.ipynb">source code</a>
+              <p>Gathered, cleaned, and analyzed date from the FBI and U.S. Census to identify and visualize trends in gun permits per capita across the U.S.</p>
+              <br/>
               <li>Full-Stack text-based adventure game - "Noble Knight"</li>
               <div className='project-buttons-noble-knight'>
               <a target='_blank' rel="noreferrer" className='project-links' href="https://playnobleknight.com">see live</a>
               <a target='_blank' rel="noreferrer" className='project-links' href="https://github.com/scdone/nobleKnight">source code</a>
               <p>Created with React, Node.js, JavaScript, HTML5, CSS, PostgreSQL database, and Sequelize</p>
-              <li>Analysis of FBI gun data and U.S. Census data</li>
-              <a target='_blank' rel="noreferrer" className='project-links' href="https://github.com/scdone/US-Census-and-Gun-Data-Analysis/blob/main/GunData_Notebook.ipynb">source code</a>
-              <p>Gathered, cleaned, and analyzed date from the FBI and U.S. Census to identify and visualize trends in gun permits per capita across the U.S.</p>
               </div>
             </div>
         </div>
