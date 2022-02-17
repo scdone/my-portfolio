@@ -50,9 +50,9 @@ function App() {
         </div>
         <div className='box right middle-blue'>
           <h2>experience</h2>
-          <p className='bio-paragraph'>I have experience as a fullstack developer using React, Javascript, HTML, CSS, Node.js, and SQL. Previous to software development, I worked as a Deputy Sheriff in Phoenix, Arizona.
+          <p className='bio-paragraph'>My passion lies in making data make sense. I have experience as a data analyst using Python, Pandas, Matplotlib, SQL, plus many other packages in the Anaconda distribution and beyond. In addition, I have experience as a fullstack developer using React, Javascript, HTML, CSS, Node.js, and SQL. Previous to software development, I worked as a Deputy Sheriff in Phoenix, Arizona.
           </p>
-          <a target="_blank" rel="noreferrer" className='contact-links' href="https://docs.google.com/document/d/e/2PACX-1vRPzged0CBqgGsXo-shYjmcGYl9xlnJdqbWvbWoV3xR6Ba8Ltczrhw-muzqcI9UNev2ASqpFGanSKO9/pub">resume</a>
+          <a target="_blank" rel="noreferrer" className='contact-links' href="https://docs.google.com/document/d/e/2PACX-1vRPzged0CBqgGsXo-shYjmcGYl9xlnJdqbWvbWoV3xR6Ba8Ltczrhw-muzqcI9UNev2ASqpFGanSKO9/pub">see resume</a>
         </div>
         <div className='box right green'>
           <h2>skills</h2>
