@@ -14,7 +14,7 @@ function App() {
       <section>
         <div className='box middle green'>
           <h1>Stetson Done</h1>
-          <p className='bio-paragraph' id="bio">With a background in law enforcement, I have experience with finding solutions and making decisions under pressure. My passion lies in problem solving with creative software engineering solutions. Outside of programming, you can find me spending time with my family, enjoying the great outdoors, or gaming.</p>
+          <p className='bio-paragraph' id="bio">With a background in law enforcement, I have experience with finding solutions and making decisions under pressure. I enjoy problem solving with creative software engineering solutions. Outside of programming and data analysis, you can find me spending time with my family, enjoying the great outdoors, or gaming.</p>
           <h2>Data Analyst in Phoenix, Arizona</h2>
         </div>
         <div className='box middle dark-blue'>
@@ -23,11 +23,11 @@ function App() {
               <br/>
               <li>Analysis of FBI gun data and U.S. Census data</li>
               <div className='project-buttons-noble-knight'>
-              <a target='_blank' rel="noreferrer" className='project-links' href="https://htmlpreview.github.io/?https://github.com/scdone/US-Census-and-Gun-Data-Analysis/blob/main/US_census_gun_data_analysis_HTML.html">source code</a>
-              <p>Gathered, cleaned, and analyzed date from the FBI and U.S. Census to identify and visualize trends in gun permits per capita across the U.S.</p>
+              <a target='_blank' rel="noreferrer" className='project-links' href="https://htmlpreview.github.io/?https://github.com/scdone/US-Census-and-Gun-Data-Analysis/blob/main/US_census_gun_data_analysis_HTML.html">see live</a>
+              <p>Gathered, cleaned, and analyzed data to identify and visualize trends in gun permits per capita across the U.S.</p>
               </div>
               <br/>
-              <li>Full-Stack text-based adventure game - "Noble Knight"</li>
+              <li>Full-Stack web application - "Noble Knight" adventure game</li>
               <div className='project-buttons-noble-knight'>
               <a target='_blank' rel="noreferrer" className='project-links' href="https://playnobleknight.com">see live</a>
               <a target='_blank' rel="noreferrer" className='project-links' href="https://github.com/scdone/nobleKnight">source code</a>
@@ -50,7 +50,7 @@ function App() {
         </div>
         <div className='box right middle-blue'>
           <h2>experience</h2>
-          <p className='bio-paragraph'>My passion lies in making data make sense. I have experience as a data analyst using Python, Pandas, Matplotlib, other packages in the Anaconda distribution, and beyond. In addition, I have experience as a fullstack developer using React, Javascript, HTML and CSS. Previous to software development, I worked as a Deputy Sheriff in Phoenix, Arizona.
+          <p className='bio-paragraph'>My passion lies in making data make sense. I have experience as a data analyst using Python, Pandas, Matplotlib, other packages in the Anaconda distribution, and beyond. In addition, I have experience as a fullstack web developer using React, Javascript, HTML and CSS. Previous to software development, I worked as a Deputy Sheriff in Phoenix, Arizona.
           </p>
           <a target="_blank" rel="noreferrer" className='contact-links' href="https://docs.google.com/document/d/e/2PACX-1vRPzged0CBqgGsXo-shYjmcGYl9xlnJdqbWvbWoV3xR6Ba8Ltczrhw-muzqcI9UNev2ASqpFGanSKO9/pub">see resume</a>
         </div>
